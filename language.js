@@ -1,7 +1,7 @@
 (function () {
   const supported = ['zh-Hans', 'zh-Hant', 'ja', 'ko', 'en'];
   const requested = new URLSearchParams(location.search).get('lang');
-  const current = supported.includes(requested) ? requested : 'zh-Hans';
+  const current = supported.includes(requested) ? requested : 'en';
   window.switchLanguage = function (language) {
     if (!supported.includes(language)) return;
     const next = new URL(location.href);
