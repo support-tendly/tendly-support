@@ -2,7 +2,7 @@
 
 纯静态、无 JavaScript、无 Cookie、无追踪。发布前必须全局替换：
 
-- `support.tendly@gmail.com`：公开客服邮箱
+- `276520106@qq.com`：公开客服邮箱
 - `Yuanxiang Li`：个人开发者姓名或公司法定名称
 
 本地预览：在本目录执行 `python3 -m http.server 8080`，访问 `http://localhost:8080`。
